@@ -20,8 +20,17 @@
     "ios": "10.0"
   },
   "source_files": "PXxlogger/Classes/**/*",
-  "public_header_files": "Pod/Classes/**/*.h",
   "libraries": "z",
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "ENABLE_BITCODE": "NO",
+    "DEFINES_MODULE": "YES"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "ENABLE_BITCODE": "NO",
+    "DEFINES_MODULE": "YES"
+  },
   "ios": {
     "vendored_frameworks": "Vendor/mars.framework"
   }

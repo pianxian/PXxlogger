@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
   s.requires_arc     = true
   s.platform         = :ios, '10.0'
   s.ios.deployment_target = '10.0'
-  s.source_files = 'PXXlogger/Classes/**/*'
+  s.source_files = 'PXxlogger/Classes/**/*'
 #  s.public_header_files = 'Pod/Classes/**/*.h'
   # 如果依赖了library（记得把lib前缀，以及.tbd去掉）
   s.libraries  = 'z'
@@ -36,7 +36,9 @@ Pod::Spec.new do |s|
   # # 如果依赖了三方pod库
   # s.dependency 'AFNetWorking', '~> 5.0.2'
 #  # 如果需要修改pod中的target设置，写在这里
-#  s.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64', 'ENABLE_BITCODE' => 'NO' }
-    #  s.user_target_xcconfig = { 'ENABLE_BITCODE' => 'NO' }
+#  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64', 'ENABLE_BITCODE' => 'NO' }
+#  s.user_target_xcconfig = {'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64', 'ENABLE_BITCODE' => 'NO' }
+  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' ,'ENABLE_BITCODE' => 'NO','DEFINES_MODULE' => 'YES'}
+  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' ,'ENABLE_BITCODE' => 'NO','DEFINES_MODULE' => 'YES'}
   s.ios.vendored_frameworks = 'Vendor/mars.framework'
 end
