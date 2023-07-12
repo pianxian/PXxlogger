@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'PXxlogger_Example' do
+  pod 'PXxlogger', :path => '../'
+
+  target 'PXxlogger_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

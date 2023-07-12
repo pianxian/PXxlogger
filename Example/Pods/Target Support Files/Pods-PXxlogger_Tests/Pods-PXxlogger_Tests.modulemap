@@ -1,0 +1,6 @@
+framework module Pods_PXxlogger_Tests {
+  umbrella header "Pods-PXxlogger_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

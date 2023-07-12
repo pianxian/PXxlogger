@@ -1,0 +1,16 @@
+PODS:
+  - PXxlogger (0.1.0)
+
+DEPENDENCIES:
+  - PXxlogger (from `../`)
+
+EXTERNAL SOURCES:
+  PXxlogger:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PXxlogger: b3691b1094e53d3faa0fac8cfebacf32975213b5
+
+PODFILE CHECKSUM: 4d92c25160e6bc6e6abba46c05c12d43d953c2c0
+
+COCOAPODS: 1.12.0
