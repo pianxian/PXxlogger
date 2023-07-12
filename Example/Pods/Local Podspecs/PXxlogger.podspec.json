@@ -19,7 +19,7 @@
   "platforms": {
     "ios": "10.0"
   },
-  "source_files": "PXxlogger/Classes/**/*",
+  "source_files": "Classes/**/*",
   "libraries": "z",
   "pod_target_xcconfig": {
     "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",

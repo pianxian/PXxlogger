@@ -7,25 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0DB4C7D7D523A2CE80B6848EF640A3C6 /* PXXLogHelper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 014EFF951217BB49FDB8B8E18DF2F914 /* PXXLogHelper.mm */; };
-		0FD98F8C247CC90FBF7A6883C80B0554 /* PXXLoggerFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B9B5CAEE5607852384C6356FB9A3331 /* PXXLoggerFileManager.m */; };
-		184AD45A4715C3C5BA049B69C8C4A1EB /* PXXLogHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 163DEAE116D71BD4842C60FDF40D7F1F /* PXXLogHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04843602EE401CDE391BE63D1F20CEB0 /* PXFileLoggerConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D72CB62E5CE69478619DCA2FAF78BD6 /* PXFileLoggerConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		196E5C1177614570E0D98B93F03D2BA7 /* PXXLoggerFileManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F7E44A2A2C700E6C21EFB044D5B808C7 /* PXXLoggerFileManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1F161E83DE84005A0281522F1D42A0A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		2F2264E2AC6249C189006BE4974047C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		3010AD97E62A43BE63E4D3B952F3307D /* PXFileLoggerConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CF66698780C77EB821F9327D0452731 /* PXFileLoggerConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		30E0E0ED7D84CE0B64E571E4DC9B1023 /* PXxlogger-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D122AA16229DD056CA8997E0A4F62FEC /* PXxlogger-dummy.m */; };
-		38F6CCC87DD937726E2027C834FDE914 /* PXXLoggerService.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EB5787E1BBAD3A436AB10707FFD5A28 /* PXXLoggerService.m */; };
+		30E0E0ED7D84CE0B64E571E4DC9B1023 /* PXxlogger-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B0FEC30BCAA40544211BA4972FB75CBB /* PXxlogger-dummy.m */; };
 		5360E8344782DE872B3B61CE35108E1F /* Pods-PXxlogger_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A28AF21B3A3D1112851EF3B3C5FDD99 /* Pods-PXxlogger_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		57720E008E0C8AAFE34E2CEF137B9C19 /* Pods-PXxlogger_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6635B5FA57CF7C15F623FDF6D7D1808B /* Pods-PXxlogger_Tests-dummy.m */; };
+		61F62882AF62F028581C82AC26444564 /* PXXLoggerService.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EA5B8851CE091F5D60D0AFC2DF35E31 /* PXXLoggerService.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6C2FBDD1935301DE2EF2D95F7119E13B /* Pods-PXxlogger_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 893BF88A583040C801C41D47E0F8F9B4 /* Pods-PXxlogger_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6CC603CE1D4BC8FA003FBF480F1A1354 /* PXXLoggerFileManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 3431D64B32CDD2D283D64D46BC815418 /* PXXLoggerFileManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		705DCF94624B759FF1EC4C064044A5D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		7C8E94A1687F1CA66863472ED96A29D4 /* PXXLoggerService.h in Headers */ = {isa = PBXBuildFile; fileRef = A6D5EB1B53158322EC87FEADD5BAFD16 /* PXXLoggerService.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9171BF5803B77A8A399EC31A253D16EF /* Pods-PXxlogger_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7111B5C6BB7928A652FC277AA9C83013 /* Pods-PXxlogger_Example-dummy.m */; };
-		9CFBB5F58ECE77B2590B7B43B9F6D0BC /* PXFileLoggerConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 21D2E083D3B479CBCF1D83D3617154F4 /* PXFileLoggerConfig.m */; };
-		AF9DBE30B2ADA077CFF7F5A5983863A9 /* PXXLoggerUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = AA717C9FEC5823A4E5D97688B13507AD /* PXXLoggerUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D00FD28040D29F6A87310A7470624614 /* PXMarco.h in Headers */ = {isa = PBXBuildFile; fileRef = 858F3EA1C1FDCA416340ADEBA0462455 /* PXMarco.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E1A04DC22363AE91F57EC4BDDEF08AFC /* PXxlogger-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E383ED126C17FB5E117D52357C1F8E80 /* PXxlogger-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9392B947441478DB33CD67C8F2A71B83 /* PXMarco.h in Headers */ = {isa = PBXBuildFile; fileRef = 006B72DCA41E3F5FD5C57173737044BF /* PXMarco.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A84A7E736EA762B3D5CB805AACEC15EE /* PXXLogHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C018D22FA1A713B8524DF6530FD4F1E /* PXXLogHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C09AE94805CEF0D91DB8148E50088DDF /* PXXLogHelper.mm in Sources */ = {isa = PBXBuildFile; fileRef = A53AFA0944BC3EB292693154073182BD /* PXXLogHelper.mm */; };
+		C83580DE5F7CD7A6A67286936B530DB8 /* PXXLoggerUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = B69A67AD04C61475A43A9D341609B5FD /* PXXLoggerUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D5A231F24280D3F379EC7227262C93F8 /* PXXLoggerFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A2C8D6344338BC33A5BF4E8D32A936E /* PXXLoggerFileManager.m */; };
+		DD692AB6BC5F07D59744710EE6961575 /* PXFileLoggerConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F76C468B71278E8DD8FACD8655CEFB5 /* PXFileLoggerConfig.m */; };
+		E1A04DC22363AE91F57EC4BDDEF08AFC /* PXxlogger-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A22160CCC1F57F37F405D3960721315C /* PXxlogger-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD361FF991B81F95F05F8CEE3F76CE15 /* PXXLoggerService.m in Sources */ = {isa = PBXBuildFile; fileRef = E16BF3C3251451BF0DCB4B20FB758E6F /* PXXLoggerService.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,48 +46,48 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		014EFF951217BB49FDB8B8E18DF2F914 /* PXXLogHelper.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = PXXLogHelper.mm; path = PXxlogger/Classes/PXXLogHelper.mm; sourceTree = "<group>"; };
+		006B72DCA41E3F5FD5C57173737044BF /* PXMarco.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXMarco.h; path = Classes/PXMarco.h; sourceTree = "<group>"; };
 		022F899CAB81F8A81B73AB568E2D58A6 /* Pods-PXxlogger_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PXxlogger_Example.release.xcconfig"; sourceTree = "<group>"; };
 		03CAD149A74C54CFF8FA78DF74F01ED9 /* Pods-PXxlogger_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PXxlogger_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		150AE9C680269FFB9FB441E2457EDAF8 /* PXxlogger.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PXxlogger.modulemap; sourceTree = "<group>"; };
-		163DEAE116D71BD4842C60FDF40D7F1F /* PXXLogHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXXLogHelper.h; path = PXxlogger/Classes/PXXLogHelper.h; sourceTree = "<group>"; };
-		19509150C3B6648C54C11F947F71763B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		1B601D47ED33902F7BEEC49840EE689A /* PXxlogger.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = PXxlogger.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		21D2E083D3B479CBCF1D83D3617154F4 /* PXFileLoggerConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PXFileLoggerConfig.m; path = PXxlogger/Classes/PXFileLoggerConfig.m; sourceTree = "<group>"; };
-		3431D64B32CDD2D283D64D46BC815418 /* PXXLoggerFileManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXXLoggerFileManager.h; path = PXxlogger/Classes/PXXLoggerFileManager.h; sourceTree = "<group>"; };
+		0B75EEBA7F241EFC44412EFC8F185F51 /* PXxlogger.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PXxlogger.release.xcconfig; sourceTree = "<group>"; };
+		1D72CB62E5CE69478619DCA2FAF78BD6 /* PXFileLoggerConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXFileLoggerConfig.h; path = Classes/PXFileLoggerConfig.h; sourceTree = "<group>"; };
+		1F76C468B71278E8DD8FACD8655CEFB5 /* PXFileLoggerConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PXFileLoggerConfig.m; path = Classes/PXFileLoggerConfig.m; sourceTree = "<group>"; };
+		34B5980818D40304D0A91A6FDCC3D3DB /* PXxlogger.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = PXxlogger.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4095BBDE736656FA42A80D572095BF94 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		493659E5C0943C1E456193D1401D4E20 /* Pods-PXxlogger_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PXxlogger_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		4CF66698780C77EB821F9327D0452731 /* PXFileLoggerConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXFileLoggerConfig.h; path = PXxlogger/Classes/PXFileLoggerConfig.h; sourceTree = "<group>"; };
+		4EA5B8851CE091F5D60D0AFC2DF35E31 /* PXXLoggerService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXXLoggerService.h; path = Classes/PXXLoggerService.h; sourceTree = "<group>"; };
 		5A1A50A0153127E569AD6D19676CE523 /* Pods-PXxlogger_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PXxlogger_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		5F4328FE4C4E58CAB5A5F282FF7C51FE /* Pods-PXxlogger_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PXxlogger_Tests.modulemap"; sourceTree = "<group>"; };
+		6176059698A60E262F6C973383B201E2 /* PXxlogger.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PXxlogger.modulemap; sourceTree = "<group>"; };
 		6635B5FA57CF7C15F623FDF6D7D1808B /* Pods-PXxlogger_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PXxlogger_Tests-dummy.m"; sourceTree = "<group>"; };
-		6B9B5CAEE5607852384C6356FB9A3331 /* PXXLoggerFileManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PXXLoggerFileManager.m; path = PXxlogger/Classes/PXXLoggerFileManager.m; sourceTree = "<group>"; };
-		6FEC5F7F8229E524285EDE7F2A9716C2 /* PXxlogger.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PXxlogger.release.xcconfig; sourceTree = "<group>"; };
 		7111B5C6BB7928A652FC277AA9C83013 /* Pods-PXxlogger_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PXxlogger_Example-dummy.m"; sourceTree = "<group>"; };
+		72464442088559C2E91C6DFBF9848080 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7A2C8D6344338BC33A5BF4E8D32A936E /* PXXLoggerFileManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PXXLoggerFileManager.m; path = Classes/PXXLoggerFileManager.m; sourceTree = "<group>"; };
 		841132D7C9A4261851A2AEF4764FDBD8 /* Pods-PXxlogger_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PXxlogger_Tests-Info.plist"; sourceTree = "<group>"; };
-		858F3EA1C1FDCA416340ADEBA0462455 /* PXMarco.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXMarco.h; path = PXxlogger/Classes/PXMarco.h; sourceTree = "<group>"; };
-		87C76674F54DDFB8C0DBB4E8DE5F3273 /* PXxlogger-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PXxlogger-Info.plist"; sourceTree = "<group>"; };
 		893BF88A583040C801C41D47E0F8F9B4 /* Pods-PXxlogger_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PXxlogger_Example-umbrella.h"; sourceTree = "<group>"; };
-		89DC581756D117294C8D53F39DEA2F4F /* PXxlogger-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PXxlogger-prefix.pch"; sourceTree = "<group>"; };
 		8A28AF21B3A3D1112851EF3B3C5FDD99 /* Pods-PXxlogger_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PXxlogger_Tests-umbrella.h"; sourceTree = "<group>"; };
 		8C146E031F38D69BBB04922672AD11B8 /* Pods-PXxlogger_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PXxlogger_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		97BB26B0588C511F65A15F93E1B13C98 /* Pods-PXxlogger_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-PXxlogger_Example"; path = Pods_PXxlogger_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C018D22FA1A713B8524DF6530FD4F1E /* PXXLogHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXXLogHelper.h; path = Classes/PXXLogHelper.h; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9EB5787E1BBAD3A436AB10707FFD5A28 /* PXXLoggerService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PXXLoggerService.m; path = PXxlogger/Classes/PXXLoggerService.m; sourceTree = "<group>"; };
-		A1AA7A0B5B6E2FE86519396CE5853E88 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		A6D5EB1B53158322EC87FEADD5BAFD16 /* PXXLoggerService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXXLoggerService.h; path = PXxlogger/Classes/PXXLoggerService.h; sourceTree = "<group>"; };
+		A22160CCC1F57F37F405D3960721315C /* PXxlogger-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PXxlogger-umbrella.h"; sourceTree = "<group>"; };
+		A3D7C7B1A1E21CBCEF4DE45242A130AC /* PXxlogger-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PXxlogger-Info.plist"; sourceTree = "<group>"; };
+		A53AFA0944BC3EB292693154073182BD /* PXXLogHelper.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = PXXLogHelper.mm; path = Classes/PXXLogHelper.mm; sourceTree = "<group>"; };
 		A72DE525E6DE91B28E9D1431975CBDBB /* Pods-PXxlogger_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PXxlogger_Example.modulemap"; sourceTree = "<group>"; };
-		AA717C9FEC5823A4E5D97688B13507AD /* PXXLoggerUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXXLoggerUtil.h; path = PXxlogger/Classes/PXXLoggerUtil.h; sourceTree = "<group>"; };
-		AC1969C98FCD82D7057441F3872D086F /* PXxlogger.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PXxlogger.debug.xcconfig; sourceTree = "<group>"; };
+		AAB758BDB7C23F1FD67B28577AE32A29 /* mars.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = mars.framework; path = Vendor/mars.framework; sourceTree = "<group>"; };
+		B0FEC30BCAA40544211BA4972FB75CBB /* PXxlogger-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PXxlogger-dummy.m"; sourceTree = "<group>"; };
+		B69A67AD04C61475A43A9D341609B5FD /* PXXLoggerUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXXLoggerUtil.h; path = Classes/PXXLoggerUtil.h; sourceTree = "<group>"; };
 		BC9A958EF57EB4735BAB49521BBFE649 /* Pods-PXxlogger_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-PXxlogger_Tests"; path = Pods_PXxlogger_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C31FDB53F94905856E872D6FC0B18C35 /* Pods-PXxlogger_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PXxlogger_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C31FEAC60D1E90CBDF944A44B9CBAC95 /* Pods-PXxlogger_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PXxlogger_Example-frameworks.sh"; sourceTree = "<group>"; };
 		C37DA87C8B6E33F3FCBD7DBEA4CF92D8 /* Pods-PXxlogger_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PXxlogger_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		D122AA16229DD056CA8997E0A4F62FEC /* PXxlogger-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PXxlogger-dummy.m"; sourceTree = "<group>"; };
 		D7A55DF46EB1F6C0DDE6A9D8A6C8CE24 /* PXxlogger */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PXxlogger; path = PXxlogger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E383ED126C17FB5E117D52357C1F8E80 /* PXxlogger-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PXxlogger-umbrella.h"; sourceTree = "<group>"; };
+		E16BF3C3251451BF0DCB4B20FB758E6F /* PXXLoggerService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PXXLoggerService.m; path = Classes/PXXLoggerService.m; sourceTree = "<group>"; };
+		E4EFC8ECFFB3FCEB0437C5157314BFF7 /* PXxlogger.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PXxlogger.debug.xcconfig; sourceTree = "<group>"; };
 		EA66F4FDC892355AFFDE18997CC13277 /* Pods-PXxlogger_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PXxlogger_Example-Info.plist"; sourceTree = "<group>"; };
-		FB412B49A651FD85E4BA66F0D12B1F6C /* mars.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = mars.framework; path = Vendor/mars.framework; sourceTree = "<group>"; };
+		F7E44A2A2C700E6C21EFB044D5B808C7 /* PXXLoggerFileManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXXLoggerFileManager.h; path = Classes/PXXLoggerFileManager.h; sourceTree = "<group>"; };
+		FAB816429CF7049BF26B727ABBF0386E /* PXxlogger-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PXxlogger-prefix.pch"; sourceTree = "<group>"; };
 		FFD9B0AAA1C882581654E6245A127B02 /* Pods-PXxlogger_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PXxlogger_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -119,12 +119,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		26B4C94E28EB7274F57BD28875F4ABD9 /* Frameworks */ = {
+		1E0277B695703A2CF103EBBA89B39639 /* PXxlogger */ = {
 			isa = PBXGroup;
 			children = (
-				FB412B49A651FD85E4BA66F0D12B1F6C /* mars.framework */,
+				1D72CB62E5CE69478619DCA2FAF78BD6 /* PXFileLoggerConfig.h */,
+				1F76C468B71278E8DD8FACD8655CEFB5 /* PXFileLoggerConfig.m */,
+				006B72DCA41E3F5FD5C57173737044BF /* PXMarco.h */,
+				F7E44A2A2C700E6C21EFB044D5B808C7 /* PXXLoggerFileManager.h */,
+				7A2C8D6344338BC33A5BF4E8D32A936E /* PXXLoggerFileManager.m */,
+				4EA5B8851CE091F5D60D0AFC2DF35E31 /* PXXLoggerService.h */,
+				E16BF3C3251451BF0DCB4B20FB758E6F /* PXXLoggerService.m */,
+				B69A67AD04C61475A43A9D341609B5FD /* PXXLoggerUtil.h */,
+				9C018D22FA1A713B8524DF6530FD4F1E /* PXXLogHelper.h */,
+				A53AFA0944BC3EB292693154073182BD /* PXXLogHelper.mm */,
+				ABDA2D3CFD7AEA57FCFA1BF23F85E2C5 /* Frameworks */,
+				BB5C6A47EDF18C24E40BB69EAC450DC6 /* Pod */,
+				A3CF863B6B6FA906B6C6C68CF8853436 /* Support Files */,
 			);
-			name = Frameworks;
+			name = PXxlogger;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -133,37 +146,6 @@
 				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		68E23C104C3DC3213246A20277D6FDF9 /* PXxlogger */ = {
-			isa = PBXGroup;
-			children = (
-				4CF66698780C77EB821F9327D0452731 /* PXFileLoggerConfig.h */,
-				21D2E083D3B479CBCF1D83D3617154F4 /* PXFileLoggerConfig.m */,
-				858F3EA1C1FDCA416340ADEBA0462455 /* PXMarco.h */,
-				3431D64B32CDD2D283D64D46BC815418 /* PXXLoggerFileManager.h */,
-				6B9B5CAEE5607852384C6356FB9A3331 /* PXXLoggerFileManager.m */,
-				A6D5EB1B53158322EC87FEADD5BAFD16 /* PXXLoggerService.h */,
-				9EB5787E1BBAD3A436AB10707FFD5A28 /* PXXLoggerService.m */,
-				AA717C9FEC5823A4E5D97688B13507AD /* PXXLoggerUtil.h */,
-				163DEAE116D71BD4842C60FDF40D7F1F /* PXXLogHelper.h */,
-				014EFF951217BB49FDB8B8E18DF2F914 /* PXXLogHelper.mm */,
-				26B4C94E28EB7274F57BD28875F4ABD9 /* Frameworks */,
-				7BBC6C3AE6DC6F453ACFEFF71604B11E /* Pod */,
-				EF4167E9589961485910492A04665F20 /* Support Files */,
-			);
-			name = PXxlogger;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		7BBC6C3AE6DC6F453ACFEFF71604B11E /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				19509150C3B6648C54C11F947F71763B /* LICENSE */,
-				1B601D47ED33902F7BEEC49840EE689A /* PXxlogger.podspec */,
-				A1AA7A0B5B6E2FE86519396CE5853E88 /* README.md */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		887AF1933187DCE4AC36D1C65C14E635 /* Pods-PXxlogger_Tests */ = {
@@ -182,10 +164,43 @@
 			path = "Target Support Files/Pods-PXxlogger_Tests";
 			sourceTree = "<group>";
 		};
+		A3CF863B6B6FA906B6C6C68CF8853436 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6176059698A60E262F6C973383B201E2 /* PXxlogger.modulemap */,
+				B0FEC30BCAA40544211BA4972FB75CBB /* PXxlogger-dummy.m */,
+				A3D7C7B1A1E21CBCEF4DE45242A130AC /* PXxlogger-Info.plist */,
+				FAB816429CF7049BF26B727ABBF0386E /* PXxlogger-prefix.pch */,
+				A22160CCC1F57F37F405D3960721315C /* PXxlogger-umbrella.h */,
+				E4EFC8ECFFB3FCEB0437C5157314BFF7 /* PXxlogger.debug.xcconfig */,
+				0B75EEBA7F241EFC44412EFC8F185F51 /* PXxlogger.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/PXxlogger";
+			sourceTree = "<group>";
+		};
+		ABDA2D3CFD7AEA57FCFA1BF23F85E2C5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AAB758BDB7C23F1FD67B28577AE32A29 /* mars.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BB5C6A47EDF18C24E40BB69EAC450DC6 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				4095BBDE736656FA42A80D572095BF94 /* LICENSE */,
+				34B5980818D40304D0A91A6FDCC3D3DB /* PXxlogger.podspec */,
+				72464442088559C2E91C6DFBF9848080 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		C288500DAE487E1C816E7FE9A18958B2 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				68E23C104C3DC3213246A20277D6FDF9 /* PXxlogger */,
+				1E0277B695703A2CF103EBBA89B39639 /* PXxlogger */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -235,21 +250,6 @@
 			path = "Target Support Files/Pods-PXxlogger_Example";
 			sourceTree = "<group>";
 		};
-		EF4167E9589961485910492A04665F20 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				150AE9C680269FFB9FB441E2457EDAF8 /* PXxlogger.modulemap */,
-				D122AA16229DD056CA8997E0A4F62FEC /* PXxlogger-dummy.m */,
-				87C76674F54DDFB8C0DBB4E8DE5F3273 /* PXxlogger-Info.plist */,
-				89DC581756D117294C8D53F39DEA2F4F /* PXxlogger-prefix.pch */,
-				E383ED126C17FB5E117D52357C1F8E80 /* PXxlogger-umbrella.h */,
-				AC1969C98FCD82D7057441F3872D086F /* PXxlogger.debug.xcconfig */,
-				6FEC5F7F8229E524285EDE7F2A9716C2 /* PXxlogger.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/PXxlogger";
-			sourceTree = "<group>";
-		};
 		FAC06DA51E6113292469568D168891F8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -275,13 +275,13 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3010AD97E62A43BE63E4D3B952F3307D /* PXFileLoggerConfig.h in Headers */,
-				D00FD28040D29F6A87310A7470624614 /* PXMarco.h in Headers */,
+				04843602EE401CDE391BE63D1F20CEB0 /* PXFileLoggerConfig.h in Headers */,
+				9392B947441478DB33CD67C8F2A71B83 /* PXMarco.h in Headers */,
 				E1A04DC22363AE91F57EC4BDDEF08AFC /* PXxlogger-umbrella.h in Headers */,
-				6CC603CE1D4BC8FA003FBF480F1A1354 /* PXXLoggerFileManager.h in Headers */,
-				7C8E94A1687F1CA66863472ED96A29D4 /* PXXLoggerService.h in Headers */,
-				AF9DBE30B2ADA077CFF7F5A5983863A9 /* PXXLoggerUtil.h in Headers */,
-				184AD45A4715C3C5BA049B69C8C4A1EB /* PXXLogHelper.h in Headers */,
+				196E5C1177614570E0D98B93F03D2BA7 /* PXXLoggerFileManager.h in Headers */,
+				61F62882AF62F028581C82AC26444564 /* PXXLoggerService.h in Headers */,
+				C83580DE5F7CD7A6A67286936B530DB8 /* PXXLoggerUtil.h in Headers */,
+				A84A7E736EA762B3D5CB805AACEC15EE /* PXXLogHelper.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,11 +426,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9CFBB5F58ECE77B2590B7B43B9F6D0BC /* PXFileLoggerConfig.m in Sources */,
+				DD692AB6BC5F07D59744710EE6961575 /* PXFileLoggerConfig.m in Sources */,
 				30E0E0ED7D84CE0B64E571E4DC9B1023 /* PXxlogger-dummy.m in Sources */,
-				0FD98F8C247CC90FBF7A6883C80B0554 /* PXXLoggerFileManager.m in Sources */,
-				38F6CCC87DD937726E2027C834FDE914 /* PXXLoggerService.m in Sources */,
-				0DB4C7D7D523A2CE80B6848EF640A3C6 /* PXXLogHelper.mm in Sources */,
+				D5A231F24280D3F379EC7227262C93F8 /* PXXLoggerFileManager.m in Sources */,
+				FD361FF991B81F95F05F8CEE3F76CE15 /* PXXLoggerService.m in Sources */,
+				C09AE94805CEF0D91DB8148E50088DDF /* PXXLogHelper.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -488,7 +488,7 @@
 		};
 		44B8A11BCE226C8B8D797D1D7A262871 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AC1969C98FCD82D7057441F3872D086F /* PXxlogger.debug.xcconfig */;
+			baseConfigurationReference = E4EFC8ECFFB3FCEB0437C5157314BFF7 /* PXxlogger.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -614,7 +614,7 @@
 		};
 		BA37C06FF9987FF51745513E443364C2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6FEC5F7F8229E524285EDE7F2A9716C2 /* PXxlogger.release.xcconfig */;
+			baseConfigurationReference = 0B75EEBA7F241EFC44412EFC8F185F51 /* PXxlogger.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
