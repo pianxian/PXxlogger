@@ -1,2 +1,18 @@
 # PXxlogger
-基于mars的xlogger 工具库
+Install
+
+ pod 'PXxlogger'
+
+
+
+Use
+
+    PXFileLoggerConfig *config = [[PXFileLoggerConfig alloc] init];
+    // 存储 7 天
+    config.maxDuration = 7 * 24 * 60 * 60;
+    config.level = ATHLogLevelAll;
+
+    [PXXLoggerService configFileLogger:config];
+
+
+
