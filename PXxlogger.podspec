@@ -22,8 +22,8 @@ Pod::Spec.new do |s|
   s.requires_arc     = true
   s.platform         = :ios, '10.0'
   s.ios.deployment_target = '10.0'
-  s.source_files = 'PXxlogger/Classes/**/*'
-  s.public_header_files = 'Pod/Classes/**/*.h'
+  s.source_files = 'PXXlogger/Classes/**/*'
+#  s.public_header_files = 'Pod/Classes/**/*.h'
   # 如果依赖了library（记得把lib前缀，以及.tbd去掉）
   s.libraries  = 'z'
   # 这里是资源文件的路径
