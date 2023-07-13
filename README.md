@@ -14,5 +14,7 @@ Use
 
     [PXXLoggerService configFileLogger:config];
 
+     PXXLOG_INFO("PXxlogger", @"this is user log info");
+
 
 
